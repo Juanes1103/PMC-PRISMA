@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/CSS/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Prisma</title>
+    <link rel="icon" href="/Multimedia/IconoPrisma.png" type="image/x-icon">
 </head>
 <body>
     <!--NAVBAR-->
@@ -38,17 +39,12 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="height: auto;width: 500px;">
               <button class="btn btn-outline-success" type="submit" style="height: auto;width: 100px;">Search</button>
             </form>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://cdn-icons-png.flaticon.com/512/6326/6326055.png" style="height: fit-content; width: 45px;">
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
+            
+            <a class="nav-link dropdown-toggle" href="internacional.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://cdn-icons-png.flaticon.com/512/6326/6326055.png" style="height: fit-content; width: 45px;">   
+            </a>
+      
+        
           </div>
         </div>
       </nav>
@@ -65,28 +61,31 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner" style="height: 500px; width: 750px;">
+      <div class="carousel-inner" id="carrusel">
         <div class="carousel-item active">
-          <div class="card" style="width: 18rem;">
-            <img src="https://imagenes.eltiempo.com/files/image_1200_600/uploads/2024/09/09/66dede24d7317.jpeg" class="card-img-top" alt="...">
+          <div class="card" id="cardc">
+            <img src="https://imagenes.eltiempo.com/files/image_1200_600/uploads/2024/09/09/66dede24d7317.jpeg" 
+              id="img-c" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Seleccion Colombia gana 2-1 contra Argentia en Barranquilla</p>
+              <p class="card-text"><b>Seleccion Colombia gana 2-1 contra Argentia en Barranquilla</b></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item" style="height: 500px; width: 750px;">
-          <div class="card" style="width: 18rem;">
-            <img src="https://images.canal1.com.co/wp-content/uploads/2024/08/01182634/Turnos-de-racionamiento-en-agosto-Foto-Alcaldia-de-Bogota-ok.png" class="d-block w-100" alt="...">
+        <div class="carousel-item" id="carrusel">
+          <div class="card" id="cardc">
+            <img src="https://images.canal1.com.co/wp-content/uploads/2024/08/01182634/Turnos-de-racionamiento-en-agosto-Foto-Alcaldia-de-Bogota-ok.png" 
+              id="img-c" class="d-block w-100" alt="...">
               <div class="card-body">
-              <p class="card-text">¡Atención! Nuevas Medidas de Racionamiento</p>
+              <p class="card-text"><b>¡Atención! Nuevas Medidas de Racionamiento</b></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item" style="height: 500px; width: 750px;">
-          <div class="card" style="width: 18rem;">
-            <img src="https://i.abcnewsfe.com/a/b1b973de-cea7-49af-ac28-deb81fbc8b8f/trump-harris-ap-rt-gmh-240723_1721741260182_hpMain.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-item" id="carrusel">
+          <div class="card" id="cardc">
+            <img src="https://i.abcnewsfe.com/a/b1b973de-cea7-49af-ac28-deb81fbc8b8f/trump-harris-ap-rt-gmh-240723_1721741260182_hpMain.jpg" 
+              id="img-c" class="d-block w-100" alt="...">
               <div class="card-body">
-              <p class="card-text">Trump Vs Harris</p>
+              <p class="card-text"><b>Trump Vs Harris Nuevo debate entre los candidatos</b></p>
             </div>
           </div>
         </div>
@@ -101,6 +100,70 @@
       </button>
     </div>
     </center>
+
+    <!--Botones-->
+    <center>
+    <button type="button" class="btn btn-danger">Noticias de Izquierda</button>
+    <button type="button" class="btn btn-success">Noticias de Centro</button>
+    <button type="button" class="btn btn-primary">Noticias de Derecha</button>
+    </center>
+
+    <!--Apartado Final-->
+
+    <div class="divF">
+
+      <div class="col" id="col-f">
+        <center>
+
+          <img src="/Multimedia/logo.png" style="width: 150px; height: 50px;">
+          <h6></h6>
+          <h6>Nuestras Redes</h6>
+          <img src="/Multimedia/X-Logo.png" style="width: 30px; height: 30px;">
+          <img src="/Multimedia/IG-Logo.png" style="width: 30px; height: 30px;">
+          <img src="/Multimedia/YT-Logo.png" style="width: 30px; height: 30px;">
+          <img src="/Multimedia/IN-Logo.png" style="width: 30px; height: 30px;">
+        </center>
+      </div>
+
+      <div class="col" id="col-f">
+        <center>
+          <h6>Unase a Nosotros</h6>
+        </center>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Suscribase</li>
+          <li class="list-group-item">Trabaje con Nosotros</li>
+          <li class="list-group-item">Paute con Nosotros</li>
+          <li class="list-group-item">Contactenos</li>
+        </ul>
+      </div>
+
+      <div class="col" id="col-f">
+        <center>
+          <h6>Area Técnica</h6>
+        </center>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Servicio al Cliente</li>
+          <li class="list-group-item">Aviso de Privacidad</li>
+          <li class="list-group-item">Terminos & Condiciones</li>
+          <li class="list-group-item">Política de Cookies</li>
+        </ul>
+      </div>
+
+      <div class="col" id="col-f">
+        <center>
+          <h6>¿Quienes somos?</h6>
+        </center>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Sobre nosotros</li>
+          <li class="list-group-item">Visión</li>
+          <li class="list-group-item">Historia</li>
+        </ul>
+      </div>
+
+      <div class="col" id="col-f">
+      </div>
+
+    </div>
 
 </body>
 </html>

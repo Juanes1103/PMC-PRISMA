@@ -11,3 +11,34 @@
 .carousel-control-prev{
     color: black;
 }
+
+.card-text{
+    font-style: italic;
+}
+
+#img-c{
+    height: 200px;
+    width: 350px;
+}
+
+#cardc{
+    width: 350px;
+    height: 325px;
+}
+
+#carrusel{
+    height: 350px;
+    width: 750px;
+}
+
+.divF{
+    display: flex;
+    justify-content: space-between;
+}
+
+#col-f{
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+}
