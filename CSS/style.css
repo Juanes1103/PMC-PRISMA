@@ -42,3 +42,25 @@
     background-color: white;
     margin: 5px;
 }
+
+.divUsuario{
+    display: flex;
+    justify-content: space-between;
+}
+
+#col-Usuario{
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+}
+
+#btnLog{
+    outline: none;
+    color: white; 
+    background-color: black;
+}
+
+input.form-control{
+    width: 400px;
+}
