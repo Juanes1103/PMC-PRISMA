@@ -1,0 +1,13 @@
+.TextoNoticia1{
+    font-style: italic;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel-control-next{
+    color: black;
+}
+
+.carousel-control-prev{
+    color: black;
+}
