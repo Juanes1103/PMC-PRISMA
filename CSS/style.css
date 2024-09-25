@@ -21,6 +21,11 @@
     width: 350px;
 }
 
+.card{
+    width: 350px;
+    height: 325px;
+}
+
 #cardc{
     width: 350px;
     height: 325px;
@@ -100,6 +105,18 @@ input.form-control{
     color: white;
 }
 
+#left {
+    background-color: #d16e6e;
+}
+
+#center {
+    background-color: #91b394;
+}
+
+#right {
+    background-color: #6e6f87;
+}
+
 .marker {
     position: absolute;
     top: -5px;
@@ -161,4 +178,147 @@ input.form-control{
 
 .icon-comment::before {
     content: '\f075';
+}
+
+
+.circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.circle svg {
+    transform: rotate(-90deg);
+    width: 100px;
+    height: 100px;
+}
+.circle circle {
+    fill: none;
+    stroke-width: 10;
+}
+.circle .bg {
+    stroke: #e6e6e6;
+}
+.circle .progress {
+    stroke-linecap: round;
+    stroke-dasharray: 251;
+    stroke-dashoffset: calc(251 - (251 * var(--percentage)) / 100);
+}
+.circle .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*MARCADORES DEPENDIENDO DEL PORCENTAJE*/
+#marker0 {
+    position: absolute;
+    top: -5px;
+    left: 0%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker10 {
+    position: absolute;
+    top: -5px;
+    left: 10%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker20 {
+    position: absolute;
+    top: -5px;
+    left: 20%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker30 {
+    position: absolute;
+    top: -5px;
+    left: 30%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker40 {
+    position: absolute;
+    top: -5px;
+    left: 40%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker50 {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker60 {
+    position: absolute;
+    top: -5px;
+    left: 60%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker70 {
+    position: absolute;
+    top: -5px;
+    left: 70%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker80 {
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker90 {
+    position: absolute;
+    top: -5px;
+    left: 90%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#marker100 {
+    position: absolute;
+    top: -5px;
+    left: 100%;
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
 }
